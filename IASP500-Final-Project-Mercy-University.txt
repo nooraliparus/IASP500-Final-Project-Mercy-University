@@ -1,0 +1,21 @@
+IASP500-Final-Project-Mercy-University/
+├── README.md
+├── research_database/
+│   ├── academic_papers/
+│   │   ├── annotated_bibliography.md
+│   │   ├── PDFs/ (optional)
+│   │   └── summaries/
+│   ├── industry_reports/
+│   │   ├── reports_list.md
+│   │   └── summaries/
+│   ├── conference_presentations/
+│   │   ├── presentations_list.md
+│   │   └── summaries/
+│   └── analysis_code/
+│       ├── threat_taxonomy_builder.py
+│       ├── efficacy_metrics_calculator.py
+│       └── visualization_generator.py
+├── project_report/
+│   └── IASP500_Final_Report.pdf
+└── presentation/
+    └── IASP500_Presentation.pptx
