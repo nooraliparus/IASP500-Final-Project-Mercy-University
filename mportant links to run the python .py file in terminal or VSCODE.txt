@@ -1,0 +1,45 @@
+To uninstall Homebrew from your MacBook Pro via the terminal, you should use the official uninstall script provided by the Homebrew team.
+
+Open Terminal: Navigate to Applications > Utilities > Terminal or search for it using Spotlight (Command + Space).
+
+Run the Uninstall Command: Paste the following command exactly as it appears and press Enter:
+
+Bash
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+Follow the On-Screen Prompts:
+
+The script will list the files and directories it plans to delete.
+
+Type y (and press Enter) when asked for confirmation.
+
+You will be asked for your administrator password (your Mac login password). Note: As you type your password, nothing will appear on screen (no dots or stars). Just type it blindly and press Enter.
+
+Remove Leftover Files (Optional): The script may warn you that it couldn't remove certain directories (like /usr/local/var/) because they contain non-Homebrew files. If you want to completely remove everything related to Homebrew and are sure you don't need those files, you can remove the Homebrew directory manually.
+
+For Apple Silicon (M1/M2/M3) Macs:
+
+Bash
+
+sudo rm -rf /opt/homebrew
+For Intel Macs:
+
+Bash
+
+sudo rm -rf /usr/local/Homebrew
+Verify Uninstallation: Type the following command to confirm Homebrew is gone:
+
+Bash
+
+brew --version
+If successful, the terminal should return an error saying command not found: brew.
+
+**** important links to run the python .py file in terminal or VSCODE**** it will not work with "home-brew" on MAC OS Terminal
+
+python3 --version
+
+pip3 install pandas
+
+pip3 install matplotlib
+
+pip3 install seaborn
